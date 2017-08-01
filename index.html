@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Builder</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <form>
+            <div class="header">
+                <span class="title">Sign Up For My Web App</span>
+            </div>
+            <div class="fields" id="fields">
+                
+                <div id ="mymessage" style="height:60px; margin-left:15px; height:70px;"></div>
+                <form>
+                  <div class="col-md-6">
+                  <input type="text" placeholder="First name " id= "fname" class="form-control"><br><br>
+                  <input type="text" placeholder="Last Name " id= "lname" class="form-control"><br><br>
+                  <input type="email" placeholder="Email " id= "email" email="required" class="form-control"><br><br>
+                  <input type="current url" placeholder="Current Website url " id= "current url" class="form-control"><br><br>
+                  <input type="button" class="btn btn-success btn-block" value ="Submit" onclick="validate()">
+                </div>
+
+            <div class="footer">
+                <button>Submit Form</button>
+            </div>
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
